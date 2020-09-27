@@ -1,0 +1,73 @@
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1333668963 from [1,2147483647]
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : spliced 15792
+Internals   : 6.6.2p1/af3a357/aec814d/The OpenSplice domain service/u_domain.c/630/0/1598621665.362823400
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : Durability Client for spliced started
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : spliced 15792
+Internals   : 6.6.2p1/af3a357/aec814d/spliced::durabilityClientStart/spliced.c/350/1/1598621665.366612200
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : spliced 15792
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1598621665.366980500
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : SOAP service is reachable via port 2243
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : cmsoap 13344
+Internals   : 6.6.2p1/af3a357/aec814d/CM SOAP Service/cms_service.c/445/0/1598621665.371646600
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : cmsoap 13344
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1598621665.383765600
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : ddsi2 14512
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1598621665.398518100
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 28 21:34:25 ?D1迆㊣那℅?那㊣?? 2020
+Description : The durability service can be identified by ID: 1333668963
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : durability 11516
+Internals   : 6.6.2p1/af3a357/aec814d/DurabilityService/d_durability.c/676/0/1598621665.511006100

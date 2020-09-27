@@ -1,0 +1,260 @@
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : Domain 'ospl_sp_ddsi' has not been started
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainOpen/u_domain.c/969/0/1421381418.031250000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : Failure to open the domain, URI="file://c:\Program Files\PrismTech\OpenSpliceDDS\V6.4.2\HDE\x86.win32\etc\config\ospl.xml" The most common cause of this error is that OpenSpliceDDS is not running (when using shared memory mode). Please make sure to start OpenSplice before creating a DomainParticipant.
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/u_participantNew/u_participant.c/148/0/1421381418.234375000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : DomainParticipantFactory::create_participant creation of kernel entity failed
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_domainParticipant.c/543/3/1421381418.250000000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : Can not open mapping object 'ospA0D.tmp_MAP': 系统找不到指定的文件。 
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176852
+Internals   : V6.4.2/0c8dacf/e8c1a87/OS Abstraction/code/os_sharedmem.c/1638/0/1421381418.562500000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : Can not create the database-file 'C:\Temp\ospl\ospA0D.DBF': 文件存在。 
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176852
+Internals   : V6.4.2/0c8dacf/e8c1a87/OS Abstraction/code/os_sharedmem.c/1494/0/1421381420.875000000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.history_depth invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/170/4/1421381420.906250000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : u_domainNew:os_sharedCreateHandle failed for domain The default Domain.
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176852
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainNew/u_domain.c/669/0/1421381420.921875000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/180/4/1421381420.953125000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_instances invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/188/4/1421381420.984375000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:21 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples_per_instance invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/196/4/1421381421.015625000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:10:21 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.service_cleanup_delay invalid duration
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/204/5/1421381421.015625000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:11:09 中国标准时间 2015
+Description : Domain 'ospl_sp_ddsi' has not been started
+
+Node        : WORKHP
+Process     : testTmNotice.exe <176464>
+Thread      : 176936
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainOpen/u_domain.c/969/0/1421381469.234375000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:11:09 中国标准时间 2015
+Description : Failure to open the domain, URI="file://c:\Program Files\PrismTech\OpenSpliceDDS\V6.4.2\HDE\x86.win32\etc\config\ospl.xml" The most common cause of this error is that OpenSpliceDDS is not running (when using shared memory mode). Please make sure to start OpenSplice before creating a DomainParticipant.
+Node        : WORKHP
+Process     : testTmNotice.exe <176464>
+Thread      : 176936
+Internals   : V6.4.2/0c8dacf/e8c1a87/u_participantNew/u_participant.c/148/0/1421381469.406250000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:11:09 中国标准时间 2015
+Description : DomainParticipantFactory::create_participant creation of kernel entity failed
+Node        : WORKHP
+Process     : testTmNotice.exe <176464>
+Thread      : 176936
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_domainParticipant.c/543/3/1421381469.421875000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:17:58 中国标准时间 2015
+Description : Domain 'ospl_sp_ddsi' has not been started
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainOpen/u_domain.c/969/0/1421381878.937500000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:17:59 中国标准时间 2015
+Description : Failure to open the domain, URI="file://c:\Program Files\PrismTech\OpenSpliceDDS\V6.4.2\HDE\x86.win32\etc\config\ospl.xml" The most common cause of this error is that OpenSpliceDDS is not running (when using shared memory mode). Please make sure to start OpenSplice before creating a DomainParticipant.
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/u_participantNew/u_participant.c/148/0/1421381879.187500000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:17:59 中国标准时间 2015
+Description : DomainParticipantFactory::create_participant creation of kernel entity failed
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_domainParticipant.c/543/3/1421381879.203125000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : Can not open mapping object 'ospA0D.tmp_MAP': 系统找不到指定的文件。 
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180180
+Internals   : V6.4.2/0c8dacf/e8c1a87/OS Abstraction/code/os_sharedmem.c/1638/0/1421381882.531250000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.history_depth invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/170/4/1421381884.218750000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/180/4/1421381884.234375000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_instances invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/188/4/1421381884.265625000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples_per_instance invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/196/4/1421381884.296875000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.service_cleanup_delay invalid duration
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/204/5/1421381884.312500000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:18:15 中国标准时间 2015
+Description : Domain 'ospl_sp_ddsi' has not been started
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainOpen/u_domain.c/969/0/1421381895.765625000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:18:16 中国标准时间 2015
+Description : Failure to open the domain, URI="file://c:\Program Files\PrismTech\OpenSpliceDDS\V6.4.2\HDE\x86.win32\etc\config\ospl.xml" The most common cause of this error is that OpenSpliceDDS is not running (when using shared memory mode). Please make sure to start OpenSplice before creating a DomainParticipant.
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/u_participantNew/u_participant.c/148/0/1421381896.375000000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:16 中国标准时间 2015
+Description : DomainParticipantFactory::create_participant creation of kernel entity failed
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_domainParticipant.c/543/3/1421381896.390625000
+========================================================================================
+Report      : ERROR
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : Can not open mapping object 'ospA0D.tmp_MAP': 系统找不到指定的文件。 
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 181460
+Internals   : V6.4.2/0c8dacf/e8c1a87/OS Abstraction/code/os_sharedmem.c/1638/0/1421381909.656250000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.history_depth invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/170/4/1421381911.468750000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/180/4/1421381911.500000000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_instances invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/188/4/1421381911.515625000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.max_samples_per_instance invalid value
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/196/4/1421381911.546875000
+========================================================================================
+Report      : API_INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : DomainParticipant::set_default_topic_qos TopicQos DurabilityService.service_cleanup_delay invalid duration
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/DCPS API/gapi_qos.c/204/5/1421381911.562500000

@@ -1,0 +1,10 @@
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Fri Aug 28 21:34:27 ?D1¨²¡À¨º¡Á?¨º¡À?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : recive.exe <17560>
+Thread      : 3324
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnPlatUpdate".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1598621667.168800700

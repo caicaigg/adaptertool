@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<CIAAppPS>
+  <DATA  name="ScnDldRequest" size="24" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysBitRequest" size="140" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysResetRequest" size="136" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysHaltRequest" size="4" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysRdyRequest" size="4" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysStqRequest" size="4" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysCtrlRequest" size="36" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="ScnPlatUpdate" size="2316" PS="S" priority="0" depth="5" deadline="10"/>
+  <DATA  name="ScnDldNotify" size="264" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysBitReply" size="8460" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysRdyNotify" size="8460" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="RadParmNotify" size="656" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="SysCtrlReply" size="8" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="RadPltReport" size="80" PS="P" priority="0" depth="5" deadline="10"/>
+  <DATA  name="RadTrkReport" size="112" PS="P" priority="0" depth="5" deadline="10"/>
+</CIAAppPS>

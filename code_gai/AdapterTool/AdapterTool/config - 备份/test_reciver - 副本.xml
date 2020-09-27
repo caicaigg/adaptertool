@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<CIAAppPS>
+	<DATA  name="SysResetRequest1" size="152" PS="S" priority="0" depth="2" />
+	<DATA  name="SysHaltRequest"  size="16" PS="S" priority="0" depth="2" />
+	<DATA  name="SysBitRequest"   size="160" PS="S" priority="0" depth="2" />
+	<DATA  name="SysDldRequest"   size="40" PS="S" priority="0" depth="2" />
+	<DATA  name="SysRdyRequest"   size="24" PS="S" priority="0" depth="2" />
+	<DATA  name="SysModeSet"      size="24" PS="S" priority="0" depth="2" />
+	<DATA  name="SysCtrlRequest"  size="56" PS="S" priority="0" depth="2" />
+	<DATA  name="SysStqRequest"   size="24" PS="S" priority="0" depth="2" />
+	<DATA  name="ScnPlatUpdate"   size="80" PS="S" priority="0" depth="2" />
+	<DATA  name="ScnEventUpdate"  size="544" PS="S" priority="0" depth="2" />
+	<DATA  name="OwnInsUpdate"    size="128" PS="S" priority="0" depth="2" />
+	<DATA  name="ScnMixUpdate"    size="16" PS="S" priority="0" depth="2" />
+	<DATA  name="SysResetReply"   size="48" PS="P" priority="0" depth="2" />
+	<DATA  name="SysHaltNotify"   size="536" PS="P" priority="0" depth="2" />
+	<DATA  name="SysBitReply"     size="64" PS="P" priority="0" depth="2" />
+  <DATA  name="SysDldNotify"    size="280" PS="P" priority="0" depth="2" />
+  <DATA  name="SysRdyNotify"    size="64" PS="P" priority="0" depth="2" />
+  <DATA  name="SysModeReply"    size="48" PS="P" priority="0" depth="2" />
+  <DATA  name="SysCtrlReply"    size="48" PS="P" priority="0" depth="2" />
+  <DATA  name="SysStqReply"     size="64" PS="P" priority="0" depth="2" />
+  <DATA  name="RadEventReport"  size="72" PS="P" priority="0" depth="2" />
+  <DATA  name="RadPltReport"    size="200" PS="P" priority="0" depth="2" />
+  <DATA  name="RadTrkReport"    size="120" PS="P" priority="0" depth="2" />
+  <DATA  name="EwEventReport"   size="48" PS="P" priority="0" depth="2" />
+  <DATA  name="EwSortReport"    size="296" PS="P" priority="0" depth="2" />
+  <DATA  name="EwSpecReport"    size="56" PS="P" priority="0" depth="2" />
+  <DATA  name="EwPDWReport"     size="48" PS="P" priority="0" depth="2" />
+  <DATA  name="EwTgtLocReport"  size="16" PS="P" priority="0" depth="2" />
+	
+</CIAAppPS>

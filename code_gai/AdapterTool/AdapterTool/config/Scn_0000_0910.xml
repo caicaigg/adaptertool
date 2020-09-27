@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenario>
+	
+	  <!--场景基础信息-->
+    <ScnInfo scnID="214">
+        <ScnArea cenLon="125.8109763744056" cenLat="26.62234116277827" leftLon="116.277169" rightLon="135.344784" topLat="31.946025" bottomLat="21.298658" range_x="2083.390989631079" range_y="1183.747352750602" range_z="100000" weather="0" simTime="8" rain="0" visible="100" cloud="9"/>
+        <ScnClut clutModel="0" distrType="0" reflect="0" doppler="200"/>
+    </ScnInfo>
+    
+    <!--兵力实体列表-->
+    <MilEntList count="3">
+
+				<!--兵力实体1：威胁舰船平台-->
+        <MilEnt id="10000" name="航母护卫舰1" enemy="2" platType="0">
+            
+            <!---平台基础属性-->
+            <PlatProfInfo platProfID="11" platProfType="4" platProfName="尼米兹级">
+                <PlatDynModel/>
+                <PlatRcsModel/>
+            </PlatProfInfo>
+            
+            <!---平台初始状态-->
+            <InitInfo lon="131.8878009162374" lat="28.3916858" alt="0" yaw="-90" pitch="0" roll="0" spd="0"/>
+            
+            <!---平台航路规划-->
+            <Trajectory id="5" endTyp="1">
+                <TrajPointList count="0">		
+                </TrajPointList>	
+            </Trajectory>
+            
+            <!---搭载装备列表-->
+            <EquipList count="1">
+                <EquipInst EntId="9"/>
+            </EquipList>
+            
+        </MilEnt>
+        
+        
+        <!--兵力实体2：随队干扰飞机-->
+        <MilEnt id="0x00000000" name="随队支援干扰飞机" enemy="1" platType="0">
+            
+            <!---平台基础属性-->
+            <PlatProfInfo platProfID="12" platProfType="7" platProfName="歼轰-7A">
+                <PlatDynModel/>
+                <PlatRcsModel/>
+            </PlatProfInfo>
+            
+            <!---平台初始状态-->
+            <InitInfo lon="129.7357778927921" lat="28.39352638776562" alt="8000" yaw="90" pitch="0" roll="0" spd="183"/>
+            
+            <!---平台航路规划-->
+            <Trajectory id="3" endTyp="1">
+                <TrajPointList count="2">
+                		<TrajPoint lon="130.023009751457" lat="28.3916858" alt="8000" spd="183" nEvent="0"/>
+                		<TrajPoint lon="129.772743360341" lat="28.3916858" alt="8000" spd="183" nEvent="0"/>
+                </TrajPointList>	
+            </Trajectory>
+            
+            <!---搭载装备列表-->
+            <EquipList count="0"/>
+            
+        </MilEnt>
+        
+        <!--兵力实体3：突防攻击飞机-->
+        <MilEnt id="0x00000001" name="突防攻击飞机" enemy="1" platType="0">
+            
+            <!---平台基础属性-->
+            <PlatProfInfo platProfID="13" platProfType="7" platProfName="歼-10C">
+                <PlatDynModel/>
+                <PlatRcsModel/>
+            </PlatProfInfo>
+            
+            <!---平台初始状态-->
+            <InitInfo lon="130.3863489507884" lat="28.3916858" alt="8000" yaw="90" pitch="0" roll="0" spd="150"/>
+            
+            <!---平台航路规划-->
+            <Trajectory id="4" endTyp="3">
+                <TrajPointList count="2">
+                		<TrajPoint lon="131.291435629574" lat="28.3916858" alt="8000" spd="150" nEvent="0"/>
+                		<TrajPoint lon="130.521064341022" lat="28.3916858" alt="8000" spd="150" nEvent="0"/>
+                </TrajPointList>	
+            </Trajectory>
+            
+            <!---搭载装备列表-->
+            <EquipList count="0"/>
+            
+        </MilEnt>
+		</MilEntList>
+</Scenario>

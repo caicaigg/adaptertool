@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	
+	  <!--雷达基础属性-->
+    <RdsInst id="0" name="AN/SPY-1" desc="用于模拟宙斯盾系统多功能相控阵雷达" type="15" platform="3" prio="0" powRng="178.12345678">
+
+				<!--初始工作参数-->
+        <InitConfig  modeID="0x20000033" startTM="-1">
+            <usrFile csfId="-1" csfPath="" csfMd5="0"/>
+        </InitConfig>	
+        
+        <!--收发通道参数-->
+        <TRChanParam chanID="0x2b000009" emtPwr="2000000" rcvNF="5" APMEn="0" APMRg="0" nBand="1">
+            <band1 rfStart="3100" rfStop="3500"/>	
+        </TRChanParam>
+        
+        <!--天线安装参数-->
+        <AtnAchParam atnArrayID="0x2a00000009" atnArrayNum="1">
+            <antenna1 x="0" y="0" z="0" yaw="0" pitch="0" roll="0"/>
+        </AtnAchParam>
+
+				<!--工作模式列表-->
+        <OpModList count="2">
+        	
+        	  <!--工作模式基本参数-->
+            <OpMod modeID="0x20000033" type="1" atten="0" scan="0">
+            	
+                <!--机扫参数-->	
+                <MSBlk>
+                	
+                	  <!--天线样式-->
+                    <AtnStyle mbCnt="1">
+                        <MainBeam1 id="0x31000001" name="主波束方向图1"   tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+                        <AuxBeam1  id="0x31000002" name="辅助波束方向图1" tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+                        <AuxBeam2  id="0x31000003" name="辅助波束方向图2" tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+                        <AtnPolar  id="0x32000001" name="水平极化" type="3" rotate="0" axisRat="0" across="0"/>
+                    </AtnStyle>
+                    
+                    <!--天线扫描-->
+                    <AtnScan id="0x33000001" name="圆扫" type="0">
+                        <Cyc period="12" rotate="0"/>			<!--圆扫-->
+                        <Fan period="12" center="120" angle="10"/>		<!--扇扫-->
+                        <Rst period="12" type="1" direction="0" cenAzim="0" rngAzim="120" cenElev="0" rngElev="30" resolution="2"/>		<!--光栅扫描-->
+                        <Cne period="12" rotate="0" axisAzim="0" axisElev="30" angle="10"/>		<!--圆锥扫描-->
+                        <ESA cenAzim="0" rngAzim="120" cenElev="0" rngElev="30" bmInvAzim="2.8" bmInvElev="2.5" bmCnt="900"  dwTM="1"/>		<!--相扫-->
+                        <Track cenAzim="0" rngAzim="120"  rngElev="0" trkNum="0" dwlTm="0"/>
+                        <Spiral scanRnd="0" hlxAng="0" scanPrd="0" ScanDrc="0" rsTm="0"/>
+                        <Custom csfId="-1" csfPath="" csfMd5="0"/>		<!--自定义扫描-->
+                    </AtnScan>
+                    
+                    <!--信号波形-->
+                    <SigWfm id="0x34000001" name="常规搜索波形" desc="适用于无干扰条件下目标搜索" type="0">
+                       
+                       	<!--连续波参数-->
+                        <CW/>
+                        
+                        <!--脉冲串参数-->
+                        <PulseList id="0x35000001" numGrp="1">
+                        	
+                        		<!--脉组1-->
+                            <PulseGrp1 id="0x36000001" name="捷变波形" descTp="0" purpose="0" plsNum="256" cpiInd="0" offsetTM="0" offsetPwr="0">
+                            	
+                                <!--脉冲描述文件：仅descTp为1或2时有效-->
+                                <plsFile csfId="-1" csfPath="" csfMd5="0"/>	
+                                
+                                <!--脉冲相位参数-->
+                                <Phase initPhs="0" typePhs="0"/>
+                                
+                                <!--脉冲调制参数-->
+                                <Modulation type="4">
+                                    <LFM lfmBw="1" lfmSlope="0"/>
+                                    <NLFM nlfmTp="0" nlfmBw="1" param="0"/>
+                                    <BKCod codLen="0" codDir="0" codPlr="0"/>
+                                    <EnCod codWid="1" codNum="8" codSeq="01100111" codRul="0|180"/>
+                                </Modulation>
+                                
+                                <!--脉冲频率参数-->
+                                <Freq type="1" rfval="3300" plsNumInGrp="1" sldNum="1" sldStep="0" jitRat="0" aglNum="8" hopNum="1" divNum="1">
+                                    <FreqSeq seq="3120|3150|3185|3215|3240|3280|3325|3400"/>   	           	
+                                </Freq>
+                                
+                                <!--脉冲重频参数-->
+                                <PRI type="0" prival="1000" plsNumInGrp="1" sldNum="1" sldStep="0" jitRat="0" stgNum="16" hopNum="1">
+                                    <PRISeq/>
+                                </PRI>
+                                
+                                <!--脉冲脉宽参数-->
+                                <PW type="0" pwval="10" plsNumInGrp="1" hopNum="1">
+                                    <PWSeq/>
+                                </PW>
+                                
+                            </PulseGrp1>
+                        </PulseList>
+                    </SigWfm>
+                    
+                    <!--信号处理-->
+                    <SigProc spId="0" spName="搜索信号处理">
+                        <MTMF flsSlbWgtLvl="5" plsAcmSlbWgtLvl="5" pdDfz="0" fltWnd="0" nchAcmCnt="100" plsAcmTp="2" plsAcmWnd="0"/>
+                        <CFAR type="0" ncfarThrs="10" firThrs="10"/>
+                        <TRACE cltSpcCof="0.1" tckFltTp="0"/>
+                        <ECCM sclcPhDif="0" safSTm="0" jamDctTm="0" safSw="0" sclcAmpDif="0"/>
+                    </SigProc>
+                </MSBlk>
+                
+                <!--相扫参数-->	
+                <ESABlk revTM="50" trkTM="12">
+                	
+                	  <!--搜索子模式-->
+                    <SrcSubOpm>
+                    	
+                        <!--天线样式-->
+			                  <AtnStyle mbCnt="1">
+			                      <MainBeam1 id="0x31000001" name="主波束方向图1"   tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+			                      <AuxBeam1  id="0x31000002" name="辅助波束方向图1" tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+			                      <AuxBeam2  id="0x31000003" name="辅助波束方向图2" tpAzim="0" tpElev="2" bwAzim="2.8" bwElev="2.5" bwGain="37" csfId="-1" csfPath="" csfMd5="0"/>
+			                      <AtnPolar  id="0x32000001" name="水平极化" type="3" rotate="0" axisRat="0" across="0"/>
+			                  </AtnStyle>	
+                    	
+                    	  <!--天线扫描-->
+		                    <AtnScan id="0x33000001" name="2901相扫" type="5">
+		                        <Cyc period="12" rotate="0"/>			<!--圆扫-->
+		                        <Fan period="12" center="120" angle="10"/>		<!--扇扫-->
+		                        <Rst period="12" type="1" direction="0" cenAzim="0" rngAzim="120" cenElev="0" rngElev="30" resolution="2"/>		<!--光栅扫描-->
+		                        <Cne period="12" rotate="0" axisAzim="0" axisElev="30" angle="10"/>		<!--圆锥扫描-->
+		                        <ESA cenAzim="0" rngAzim="120" cenElev="0" rngElev="30" bmInvAzim="2.8" bmInvElev="2.5" bmCnt="900"  dwTM="1"/>		<!--相扫-->
+		                        <Track cenAzim="0" rngAzim="120"  rngElev="0" trkNum="0" dwlTm="0"/>
+		                        <Spiral scanRnd="0" hlxAng="0" scanPrd="0" ScanDrc="0" rsTm="0"/>
+		                        <Custom csfId="-1" csfPath="" csfMd5="0"/>		<!--自定义扫描-->
+		                    </AtnScan>
+
+												<!--波位列表-->
+                        <BeamPosList count="3">             	
+                        	  <BeamPosItem index="0">
+                        	  	  <SigWfm/>
+                        	  	  <SigProc/>
+                        	  </BeamPosItem>     
+                        	  <BeamPosItem index="1">
+                        	  	  <SigWfm/>
+                        	  	  <SigProc/>
+                        	  </BeamPosItem>	  
+                        	  <BeamPosItem index="2">
+                        	  	  <SigWfm/>
+                        	  	  <SigProc/>
+                        	  </BeamPosItem>                        	
+                        </BeamPosList>	
+                    </SrcSubOpm>
+                    
+                    <!--跟踪子模式-->
+                    <TrkSubOpm>
+                        <AtnStyle mbCnt="0"/>
+                        <TgtList count="0"/>
+                    </TrkSubOpm>
+                    
+                </ESABlk>
+            </OpMod>
+        </OpModList>
+    </RdsInst>
+</Root>

@@ -1,0 +1,373 @@
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176852
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381418.500000000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176124
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381418.515625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : u_domainNew:Database allocated on heap
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176124
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainNew/u_domain.c/718/0/1421381418.531250000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176124
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/u_domain.c/842/0/1421381418.609375000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : spliced 176124
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381418.640625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:18 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++
+              ++ ddsi2 EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : ddsi2 176168
+Internals   : V6.4.2/0c8dacf/e8c1a87/q_main/q_main.c/2028/0/1421381418.984375000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:19 中国标准时间 2015
+Description : +++++++++++++++++++++++++++++++++++
+              ++ durability EVALUATION VERSION ++
+              +++++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : durability 177352
+Internals   : V6.4.2/0c8dacf/e8c1a87/d_durability/d_durability.c/1083/0/1421381419.000000000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:19 中国标准时间 2015
+Description : SOAP service is reachable via port 1613
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : cmsoap 177196
+Internals   : V6.4.2/0c8dacf/e8c1a87/CM SOAP Service/cms_service.c/452/0/1421381419.218750000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : using network interface  (10.10.46.55) selected arbitrarily from: , VMware Network Adapter VMnet1, VMware Network Adapter VMnet
+
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : ddsi2 176168
+Internals   : V6.4.2/0c8dacf/e8c1a87/ddsi2/q_nwif.c/682/0/1421381420.890625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:20 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : cmsoap 177196
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381420.906250000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:10:21 中国标准时间 2015
+Description : Given QoS Policy is invalid: result = RETCODE_BAD_PARAMETER
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : 176728
+Internals   : V6.4.2/0c8dacf/e8c1a87/gapi_domainParticipant_set_default_topic_qos/gapi_domainParticipant.c/2678/0/1421381421.031250000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:21 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : ddsi2 176168
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381421.078125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:21 中国标准时间 2015
+Description : The durability service can by identified by ID: 422673191
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : durability 177352
+Internals   : V6.4.2/0c8dacf/e8c1a87/DurabilityService/d_durability.c/559/0/1421381421.156250000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:10:28 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <120560>
+Thread      : durability 177352
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381428.703125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180180
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381882.515625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180708
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381882.515625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : u_domainNew:Database allocated on heap
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180708
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainNew/u_domain.c/718/0/1421381882.546875000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180708
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/u_domain.c/842/0/1421381882.609375000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : spliced 180708
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381882.640625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : +++++++++++++++++++++++++++++++++++
+              ++ durability EVALUATION VERSION ++
+              +++++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : durability 181452
+Internals   : V6.4.2/0c8dacf/e8c1a87/d_durability/d_durability.c/1083/0/1421381882.828125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++
+              ++ ddsi2 EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : ddsi2 181484
+Internals   : V6.4.2/0c8dacf/e8c1a87/q_main/q_main.c/2028/0/1421381882.953125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:02 中国标准时间 2015
+Description : SOAP service is reachable via port 1750
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : cmsoap 181448
+Internals   : V6.4.2/0c8dacf/e8c1a87/CM SOAP Service/cms_service.c/452/0/1421381882.968750000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : using network interface  (10.10.46.55) selected arbitrarily from: , VMware Network Adapter VMnet1, VMware Network Adapter VMnet
+
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : ddsi2 181484
+Internals   : V6.4.2/0c8dacf/e8c1a87/ddsi2/q_nwif.c/682/0/1421381884.203125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : cmsoap 181448
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381884.218750000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:18:04 中国标准时间 2015
+Description : Given QoS Policy is invalid: result = RETCODE_BAD_PARAMETER
+Node        : WORKHP
+Process     : testTmNotice.exe <178636>
+Thread      : 181272
+Internals   : V6.4.2/0c8dacf/e8c1a87/gapi_domainParticipant_set_default_topic_qos/gapi_domainParticipant.c/2678/0/1421381884.328125000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 180860
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381909.640625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++
+              ++ spliced EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 181460
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/spliced.c/1350/0/1421381909.640625000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : u_domainNew:Database allocated on heap
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 180860
+Internals   : V6.4.2/0c8dacf/e8c1a87/user::u_domain::u_domainNew/u_domain.c/718/0/1421381909.656250000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 180860
+Internals   : V6.4.2/0c8dacf/e8c1a87/The OpenSplice domain service/u_domain.c/842/0/1421381909.734375000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : spliced 180860
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381909.750000000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++
+              ++ ddsi2 EVALUATION VERSION ++
+              ++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : ddsi2 179128
+Internals   : V6.4.2/0c8dacf/e8c1a87/q_main/q_main.c/2028/0/1421381909.968750000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:29 中国标准时间 2015
+Description : +++++++++++++++++++++++++++++++++++
+              ++ durability EVALUATION VERSION ++
+              +++++++++++++++++++++++++++++++++++
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : durability 182244
+Internals   : V6.4.2/0c8dacf/e8c1a87/d_durability/d_durability.c/1083/0/1421381909.968750000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:30 中国标准时间 2015
+Description : SOAP service is reachable via port 1756
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : cmsoap 182072
+Internals   : V6.4.2/0c8dacf/e8c1a87/CM SOAP Service/cms_service.c/452/0/1421381910.125000000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : using network interface  (10.10.46.55) selected arbitrarily from: , VMware Network Adapter VMnet1, VMware Network Adapter VMnet
+
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : ddsi2 179128
+Internals   : V6.4.2/0c8dacf/e8c1a87/ddsi2/q_nwif.c/682/0/1421381911.421875000
+========================================================================================
+Report      : INFO
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : cmsoap 182072
+Internals   : V6.4.2/0c8dacf/e8c1a87/v_serviceChangeState/v_service.c/320/0/1421381911.453125000
+========================================================================================
+Report      : WARNING
+Date        : Fri Jan 16 12:18:31 中国标准时间 2015
+Description : Given QoS Policy is invalid: result = RETCODE_BAD_PARAMETER
+Node        : WORKHP
+Process     : testTmNotice.exe <180880>
+Thread      : 180876
+Internals   : V6.4.2/0c8dacf/e8c1a87/gapi_domainParticipant_set_default_topic_qos/gapi_domainParticipant.c/2678/0/1421381911.578125000

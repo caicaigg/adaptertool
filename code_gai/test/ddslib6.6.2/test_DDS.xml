@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CIAAppPS>
+	<DATA name="PerformanceTestS" size="4" PS="S" priority="0" depth="1" />
+	<DATA name="PerformanceTestC" size="4" PS="P" priority="0" depth="1" />
+</CIAAppPS>

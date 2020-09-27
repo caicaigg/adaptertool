@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	
+		<!--兵力实体列表-->
+    <MilEntList num="5">
+    	
+    		<!--兵力实体1：航母护卫舰1-->
+        <MilEnt id="10010" name="SPY-1D" enemy="2" platType="0" desc="">
+			      <MappingList num="1">
+			        	<RefRes subSysId="0x01000009" subSysName="2901有源相控阵雷达" subSysType="9" desc="映射为2901雷达"/>
+			      </MappingList>
+    		</MilEnt>
+    		
+    		<!--兵力实体2：随队干扰飞机-->
+        <MilEnt id="0x00000000" name="随队支援干扰飞机" enemy="1" platType="0" desc="">
+			      <MappingList num="1">
+			        	<RefRes subSysId="0x0100000a" subSysName="2901配试标校车" subSysType="7" desc="映射为2901标校车"/>
+			      </MappingList>
+    		</MilEnt>
+    		
+    		<!--兵力实体3：突防攻击飞机-->
+        <MilEnt id="0x00000001" name="突防攻击飞机" enemy="1" platType="0" desc="">
+			      <MappingList num="1">
+			        	<RefRes subSysId="0x0100000a" subSysName="2901配试标校车" subSysType="7" desc="映射为2901标校车"/>
+			      </MappingList>
+    		</MilEnt>
+    		
+    		<!--兵力实体4：运-8电子战侦察飞机-->
+        <MilEnt id="0x10000004" name="Y-8侦A" enemy="1" platType="0" desc="">
+			      <MappingList num="1">
+			        	<RefRes subSysId="0x01000001" subSysName="UXG半实物仿真系统1" subSysType="3" desc="映射为半实物机柜1"/>
+			      </MappingList>
+    		</MilEnt>
+    		
+    		<!--兵力实体5：运-8电子战侦察飞机-->
+        <MilEnt id="0x10000005" name="Y-8侦B" enemy="1" platType="0" desc="">
+			      <MappingList num="1">
+			        	<RefRes subSysId="0x01000002" subSysName="UXG半实物仿真系统2" subSysType="3" desc="映射为半实物机柜2"/>
+			      </MappingList>
+    		</MilEnt>
+    		
+    </MilEntList>
+</Root>

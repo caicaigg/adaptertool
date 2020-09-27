@@ -1,0 +1,18 @@
+﻿[standard]
+reg = 2020-01-16
+exp = 2021-01-16
+loc = 2020-08-28
+
+
+[expmsk]
+mska = 0x99c1c0a3
+mskb = 0xfa0cee0c
+mskc = 0x5d89d837
+mskd = 0x20282a0c
+
+
+[locmsk]
+mska = 0xa72f91aa
+mskb = 0x31fe4d06
+mskc = 0x3f366b51
+mskd = 0x16300d6b
