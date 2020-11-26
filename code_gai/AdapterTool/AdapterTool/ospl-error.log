@@ -792,3 +792,399 @@ Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
 ----------------------------------------------------------------------------------------
 Report      : Precondition not met: Failed to resolve Topic "RadTrkReport".
 Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1601026701.982913800
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:25 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnDldRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252345.801864400
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:26 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysBitRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252346.312208500
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:26 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysResetRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252346.822298300
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:27 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysHaltRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252347.334695400
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:27 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysRdyRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252347.845044600
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:28 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysStqRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252348.356448700
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:28 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysCtrlRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252348.868713400
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:29 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnPlatUpdate".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252349.380294200
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:29 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnDldNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252349.889969900
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:30 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysBitReply".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252350.402451000
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:30 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysRdyNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252350.913857100
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:31 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadParmNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252351.427678000
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:31 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysCtrlReply".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252351.940974100
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:32 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadPltReport".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252352.451999700
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 11:52:32 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : 17176
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadTrkReport".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603252352.962045600
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252364.927216800
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252364.930760900
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252364.937367900
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252364.938812300
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252364.939812400
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 12.971913100 s.
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : OSPL Lease Renew Thread 16564
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/spliced.c/170/0/1603252365.021822200
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252365.022039000
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252365.919047100
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252365.919214400
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:46 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252366.440152800
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:52:54 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252374.063405000
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 21 11:53:04 ?D1迆㊣那℅?那㊣?? 2020
+Description : Unknown service 'splicedaemon' died
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ServiceManager 10976
+Internals   : 6.6.2p1/af3a357/aec814d/OpenSplice domain service/serviceMonitor.c/65/0/1603252384.928537700
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:36 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnDldRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258956.961024600
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:37 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysBitRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258957.473750500
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:37 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysResetRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258957.984029300
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:38 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysHaltRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258958.497238000
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:39 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysRdyRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258959.010082600
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:39 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysStqRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258959.523710900
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:40 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysCtrlRequest".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258960.036159400
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:40 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnPlatUpdate".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258960.549141000
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:41 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "ScnDldNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258961.060315800
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:41 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysBitReply".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258961.571584100
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:42 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysRdyNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258962.083827300
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:42 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadParmNotify".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258962.598218600
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:43 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "SysCtrlReply".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258963.112060600
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:43 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadPltReport".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258963.624884200
+========================================================================================
+Context     : DDS::OpenSplice::DomainParticipant::find_topic
+Date        : Wed Oct 21 13:42:44 ?D1迆㊣那℅?那㊣?? 2020
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : 5980
+Internals   : DomainParticipant.cpp/1090/6.6.2p1/af3a357/aec814d
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: Failed to resolve Topic "RadTrkReport".
+Internals   : DDS::OpenSplice::DomainParticipant::find_topic/DomainParticipant.cpp/968/4/1603258964.138871100

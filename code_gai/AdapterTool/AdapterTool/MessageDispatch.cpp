@@ -281,8 +281,9 @@ void MessageDispatch::TPC_SysRdyRequest_ddsfunc(TPC_SysRdyRequest PrePosition)
 	//雷达初始化配置
 	_radar->SendDMRadarInitConfigPackage(radarinit);
 
+	int timeout = ToolConfig::Instance()->GetRequestbackTimeOut() * 1000;
 	//预位超时等待线程，1000ms 后开始判断超时
-	boost::thread* thr = new boost::thread(&MessageDispatch::waitRdyRequestback, this, 2000);
+	boost::thread* thr = new boost::thread(&MessageDispatch::waitRdyRequestback, this, timeout);
 }
 
 void MessageDispatch::SysModeSet_ddsfunc(SysModeSetptr ModeSet)

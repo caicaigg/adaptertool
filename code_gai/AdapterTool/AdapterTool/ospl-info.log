@@ -2238,3 +2238,215 @@ Node        : LAPTOP-8JN62D0I
 Process     : AdapterTool.exe <17836>
 Thread      : durability 9552
 Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1601026707.749232200
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:23 ?D1迆㊣那℅?那㊣?? 2020
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1545899384 from [1,2147483647]
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : spliced 16080
+Internals   : 6.6.2p1/af3a357/aec814d/The OpenSplice domain service/u_domain.c/630/0/1603252343.920544300
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:23 ?D1迆㊣那℅?那㊣?? 2020
+Description : Durability Client for spliced started
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : spliced 16080
+Internals   : 6.6.2p1/af3a357/aec814d/spliced::durabilityClientStart/spliced.c/350/1/1603252343.932388400
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:23 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : spliced 16080
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603252343.933855900
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:23 ?D1迆㊣那℅?那㊣?? 2020
+Description : SOAP service is reachable via port 2415
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : cmsoap 14968
+Internals   : 6.6.2p1/af3a357/aec814d/CM SOAP Service/cms_service.c/445/0/1603252343.961526500
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:24 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : cmsoap 14968
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603252344.010081600
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:24 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ddsi2 10736
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603252344.024387100
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:24 ?D1迆㊣那℅?那㊣?? 2020
+Description : The durability service can be identified by ID: 1545899384
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : durability 2008
+Internals   : 6.6.2p1/af3a357/aec814d/DurabilityService/d_durability.c/676/0/1603252344.367614200
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:31 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : durability 2008
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603252351.475219600
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:44 ?D1迆㊣那℅?那㊣?? 2020
+Description : ================================================
+              == The service 'ddsi2' has now terminated. 
+              ================================================
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : ddsi2 10736
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/293/0/1603252364.939808500
+========================================================================================
+Report      : WARNING
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : Processing of lease 0x29ff9a815e0 is behind schedule; expiry-time=16452.934822100s and lag=10.970923700s (actionId=5 and duration=2.000000000s). This is often an indication that the machine is too busy. The lease manager will continue to function normally.
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : watchdog 13592
+Internals   : 6.6.2p1/af3a357/aec814d/v_leaseManager/v_leaseManager.c/792/769/1603252365.021155300
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : not accepting requests.
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : cmsoap 14968
+Internals   : 6.6.2p1/af3a357/aec814d/CM SOAP Service/cmsoap.c/106/0/1603252365.918766900
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:45 ?D1迆㊣那℅?那㊣?? 2020
+Description : ================================================
+              == The service 'cmsoap' has now terminated. 
+              ================================================
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : cmsoap 14968
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/293/0/1603252365.919102900
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 11:52:46 ?D1迆㊣那℅?那㊣?? 2020
+Description : ================================================
+              == The service 'durability' has now terminated. 
+              ================================================
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <1840>
+Thread      : durability 2008
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/293/0/1603252366.440123300
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1484297599 from [1,2147483647]
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : spliced 2588
+Internals   : 6.6.2p1/af3a357/aec814d/The OpenSplice domain service/u_domain.c/630/0/1603258955.043887400
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : Durability Client for spliced started
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : spliced 2588
+Internals   : 6.6.2p1/af3a357/aec814d/spliced::durabilityClientStart/spliced.c/350/1/1603258955.054049000
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : spliced 2588
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603258955.056305400
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : SOAP service is reachable via port 3251
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : cmsoap 7500
+Internals   : 6.6.2p1/af3a357/aec814d/CM SOAP Service/cms_service.c/445/0/1603258955.091764700
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'cmsoap' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : cmsoap 7500
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603258955.152534300
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : ddsi2 8340
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603258955.167673300
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:35 ?D1迆㊣那℅?那㊣?? 2020
+Description : The durability service can be identified by ID: 1484297599
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : durability 8296
+Internals   : 6.6.2p1/af3a357/aec814d/DurabilityService/d_durability.c/676/0/1603258955.407314900
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 21 13:42:42 ?D1迆㊣那℅?那㊣?? 2020
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : LAPTOP-8JN62D0I
+Process     : AdapterTool.exe <10096>
+Thread      : durability 8296
+Internals   : 6.6.2p1/af3a357/aec814d/v_serviceChangeState/v_service.c/286/0/1603258962.489940300

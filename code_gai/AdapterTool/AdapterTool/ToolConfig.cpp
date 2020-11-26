@@ -15,6 +15,8 @@ ToolConfig::ToolConfig()
 	, _radarrecvport(0)
 	, _bxcip("")
 	, _radarip("")
+	, _RequestbackTimeOut(10)
+	, _tmpHeading(0)
 {
 
 }
@@ -115,6 +117,10 @@ bool ToolConfig::Initialize(std::string ConfigFilePath /*=""*/)
 		{
 			_tmpHeading = xnode.attribute("Value").as_double();
 		}
+		else if (valueName == "RequestbackTimeOut")
+		{
+			_RequestbackTimeOut = xnode.attribute("Value").as_int();
+		}
 	}
 
 	if (_radarip.empty()
@@ -180,6 +186,11 @@ const int ToolConfig::GetDDSValue() const
 const double ToolConfig::GetTmpHeading() const
 {
 	return _tmpHeading;
+}
+
+const int ToolConfig::GetRequestbackTimeOut() const
+{
+	return _RequestbackTimeOut;
 }
 
 const int ToolConfig::GetPoxiRadarID() const

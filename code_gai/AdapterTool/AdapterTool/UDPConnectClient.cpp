@@ -444,19 +444,41 @@ bool CUDPConnectClient::CalcTgtPlat(std::vector<ScnPlat> &plats, const TPC_ScnPl
 {
 	std::vector<LVCEntityInfo> ettlist;
 	FileTransfer()->GetTargetEntity(ettlist);
-	for (int i = 0; i < scn.sutPlatCnt; ++i)
+	//for (int i = 0; i < scn.sutPlatCnt; ++i)
+	//{
+	//	for (int m = 0; m < ettlist.size(); ++m)
+	//	{
+	//		//if (scn.emtPlat[i].plat_id == ettlist[m].id &&
+	//		//	scn.emtPlat[i].lon != 0 )
+	//		//{
+	//		//	plats.push_back(scn.emtPlat[i]);
+	//		//}
+	//		if (scn.sutPlat[i].plat_id == ettlist[m].id &&
+	//			scn.sutPlat[i].lon != 0)
+	//		{
+	//			plats.push_back(scn.sutPlat[i]);
+	//		}
+	//	}
+	//}
+
+	for (int m = 0; m < ettlist.size(); ++m)
 	{
-		for (int m = 0; m < ettlist.size(); ++m)
+		for (int i = 0; i < scn.emtPlatCnt; ++i)
 		{
-// 			if (scn.emtPlat[i].plat_id == ettlist[m].id &&
-// 				scn.emtPlat[i].lon != 0 )
-// 			{
-// 				plats.push_back(scn.emtPlat[i]);
-// 			}
+			if (scn.emtPlat[i].plat_id == ettlist[m].id &&
+				scn.emtPlat[i].lon != 0)
+			{
+				plats.push_back(scn.emtPlat[i]);
+				break;
+			}
+		}
+		for (int i = 0; i < scn.sutPlatCnt; ++i)
+		{
 			if (scn.sutPlat[i].plat_id == ettlist[m].id &&
 				scn.sutPlat[i].lon != 0)
 			{
 				plats.push_back(scn.sutPlat[i]);
+				break;
 			}
 		}
 	}

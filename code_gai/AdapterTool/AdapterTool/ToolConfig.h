@@ -28,6 +28,8 @@ public:
 	const int GetDDSValue() const;
 	
 	const double GetTmpHeading() const;
+	//µ¥Î» s
+	const int GetRequestbackTimeOut() const;
 
 	const int GetPoxiRadarID() const;
 	const int GetPoxiBXCID() const;
@@ -61,6 +63,7 @@ private:
 	int _ddsvalue;
 
 	double _tmpHeading;
+	int _RequestbackTimeOut;
 };
 
 

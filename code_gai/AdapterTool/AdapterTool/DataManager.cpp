@@ -413,10 +413,10 @@ const TPC_ScnPlatUpdate CDataManager::DMSceneResolution::GetData()
 	{
 		base = _Queue.front();
 
-		if (_Queue.size() > 1)
-		{
+		//if (_Queue.size() > 1)
+		//{
 			_Queue.pop();
-		}
+		//}
 	}
 	//获取数据后，数据所有权就交给获取数据的模块，出现异常，由获取模块处理
 
